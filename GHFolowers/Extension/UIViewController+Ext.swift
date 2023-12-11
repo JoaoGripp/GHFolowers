@@ -32,6 +32,7 @@ extension UIViewController {
         }
         
         let activityIndicator = UIActivityIndicatorView(style: .large)
+        activityIndicator.color = .systemGreen
         containerView.addSubview(activityIndicator)
         
         activityIndicator.translatesAutoresizingMaskIntoConstraints = false
@@ -49,5 +50,11 @@ extension UIViewController {
             containerView.removeFromSuperview()
             containerView = nil
         }
+    }
+    
+    func showEmptyStateView(with message: String, in view: UIView) {
+        let emptyStateView = GFEmptyStateView(message: message)
+        emptyStateView.frame = view.bounds
+        view.addSubview(emptyStateView)
     }
 }

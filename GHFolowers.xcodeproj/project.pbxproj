@@ -28,6 +28,7 @@
 		F87FDE542B237B6D005749FC /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FDE532B237B6D005749FC /* FollowerCell.swift */; };
 		F87FDE562B237BF3005749FC /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FDE552B237BF3005749FC /* GFAvatarImageView.swift */; };
 		F87FDE582B23A29C005749FC /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FDE572B23A29C005749FC /* UIHelper.swift */; };
+		F87FDE632B274213005749FC /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FDE622B274213005749FC /* GFEmptyStateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		F87FDE532B237B6D005749FC /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		F87FDE552B237BF3005749FC /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		F87FDE572B23A29C005749FC /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		F87FDE622B274213005749FC /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,13 +113,13 @@
 		F87FDE442B213DA5005749FC /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				F87FDE612B2741CC005749FC /* Labels */,
+				F87FDE602B2741BF005749FC /* ViewControllers */,
+				F87FDE5F2B2741B4005749FC /* ImageViews */,
+				F87FDE5E2B2741A9005749FC /* TextFields */,
+				F87FDE5D2B2741A1005749FC /* Buttons */,
+				F87FDE5C2B27419B005749FC /* Views */,
 				F87FDE522B237B49005749FC /* Cells */,
-				F87FDE3F2B212408005749FC /* GFAlertVC.swift */,
-				F87FDE3D2B212350005749FC /* GFBodyLabel.swift */,
-				F87FDE3B2B2121F1005749FC /* GFTitleLabel.swift */,
-				F87FDE352B1F3925005749FC /* GFTextField.swift */,
-				F87FDE332B1F366B005749FC /* GFButton.swift */,
-				F87FDE552B237BF3005749FC /* GFAvatarImageView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -174,6 +176,55 @@
 				F87FDE532B237B6D005749FC /* FollowerCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		F87FDE5C2B27419B005749FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F87FDE622B274213005749FC /* GFEmptyStateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F87FDE5D2B2741A1005749FC /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				F87FDE332B1F366B005749FC /* GFButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		F87FDE5E2B2741A9005749FC /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				F87FDE352B1F3925005749FC /* GFTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		F87FDE5F2B2741B4005749FC /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				F87FDE552B237BF3005749FC /* GFAvatarImageView.swift */,
+			);
+			path = ImageViews;
+			sourceTree = "<group>";
+		};
+		F87FDE602B2741BF005749FC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F87FDE3F2B212408005749FC /* GFAlertVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F87FDE612B2741CC005749FC /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				F87FDE3B2B2121F1005749FC /* GFTitleLabel.swift */,
+				F87FDE3D2B212350005749FC /* GFBodyLabel.swift */,
+			);
+			path = Labels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +313,7 @@
 				F87FDE3A2B20B36B005749FC /* String+Ext.swift in Sources */,
 				F87FDE512B234887005749FC /* ErrorMessage.swift in Sources */,
 				F87FDE582B23A29C005749FC /* UIHelper.swift in Sources */,
+				F87FDE632B274213005749FC /* GFEmptyStateView.swift in Sources */,
 				F87FDE4E2B21DB12005749FC /* NetworkManager.swift in Sources */,
 				F87FDE1E2B1E1944005749FC /* SceneDelegate.swift in Sources */,
 				F87FDE3E2B212350005749FC /* GFBodyLabel.swift in Sources */,

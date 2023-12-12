@@ -22,7 +22,7 @@ class SearchVC: UIViewController {
         view.backgroundColor = .systemBackground
         configureLogoImageView()
         configureTextField()
-        configureCalltoActionButton()
+        configureCallToActionButton()
         createDismissKeyboardTapGesture()
         
     }
@@ -75,7 +75,7 @@ class SearchVC: UIViewController {
         ])
     }
     
-    func configureCalltoActionButton() {
+    func configureCallToActionButton() {
         view.addSubview(callToActionButton)
         callToActionButton.addTarget(self, action: #selector(pushFollowerListVC), for: .touchUpInside)
         

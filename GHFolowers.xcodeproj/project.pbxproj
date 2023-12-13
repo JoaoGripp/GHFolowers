@@ -37,6 +37,7 @@
 		F87FDE712B29B3B3005749FC /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FDE702B29B3B3005749FC /* GFItemInfoVC.swift */; };
 		F87FDE732B29B6BC005749FC /* GFRepoItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FDE722B29B6BC005749FC /* GFRepoItemVC.swift */; };
 		F87FDE752B29B962005749FC /* GFFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FDE742B29B962005749FC /* GFFollowerItemVC.swift */; };
+		F87FDE782B29BF72005749FC /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FDE772B29BF72005749FC /* Date+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		F87FDE702B29B3B3005749FC /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
 		F87FDE722B29B6BC005749FC /* GFRepoItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRepoItemVC.swift; sourceTree = "<group>"; };
 		F87FDE742B29B962005749FC /* GFFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFollowerItemVC.swift; sourceTree = "<group>"; };
+		F87FDE772B29BF72005749FC /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			children = (
 				F87FDE412B2133FA005749FC /* UIViewController+Ext.swift */,
 				F87FDE392B20B36B005749FC /* String+Ext.swift */,
+				F87FDE772B29BF72005749FC /* Date+Ext.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 				F87FDE752B29B962005749FC /* GFFollowerItemVC.swift in Sources */,
 				F87FDE582B23A29C005749FC /* UIHelper.swift in Sources */,
 				F87FDE632B274213005749FC /* GFEmptyStateView.swift in Sources */,
+				F87FDE782B29BF72005749FC /* Date+Ext.swift in Sources */,
 				F87FDE4E2B21DB12005749FC /* NetworkManager.swift in Sources */,
 				F87FDE1E2B1E1944005749FC /* SceneDelegate.swift in Sources */,
 				F87FDE6F2B28CDD5005749FC /* GFItemInfoView.swift in Sources */,

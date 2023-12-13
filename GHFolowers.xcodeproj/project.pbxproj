@@ -34,6 +34,7 @@
 		F87FDE6B2B28A162005749FC /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FDE6A2B28A162005749FC /* GFSecondaryTitleLabel.swift */; };
 		F87FDE6D2B28A872005749FC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FDE6C2B28A872005749FC /* Constants.swift */; };
 		F87FDE6F2B28CDD5005749FC /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FDE6E2B28CDD5005749FC /* GFItemInfoView.swift */; };
+		F87FDE712B29B3B3005749FC /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FDE702B29B3B3005749FC /* GFItemInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		F87FDE6A2B28A162005749FC /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		F87FDE6C2B28A872005749FC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F87FDE6E2B28CDD5005749FC /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
+		F87FDE702B29B3B3005749FC /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +230,7 @@
 			children = (
 				F87FDE3F2B212408005749FC /* GFAlertVC.swift */,
 				F87FDE682B28A0E6005749FC /* GFUserInfoHeaderVC.swift */,
+				F87FDE702B29B3B3005749FC /* GFItemInfoVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				F87FDE1C2B1E1944005749FC /* AppDelegate.swift in Sources */,
 				F87FDE3C2B2121F1005749FC /* GFTitleLabel.swift in Sources */,
 				F87FDE3A2B20B36B005749FC /* String+Ext.swift in Sources */,
+				F87FDE712B29B3B3005749FC /* GFItemInfoVC.swift in Sources */,
 				F87FDE582B23A29C005749FC /* UIHelper.swift in Sources */,
 				F87FDE632B274213005749FC /* GFEmptyStateView.swift in Sources */,
 				F87FDE4E2B21DB12005749FC /* NetworkManager.swift in Sources */,

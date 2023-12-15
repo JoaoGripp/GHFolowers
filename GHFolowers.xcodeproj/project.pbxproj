@@ -122,8 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				F87FDE2F2B1E2BBB005749FC /* SearchVC.swift */,
-				F87FDE312B1E2BF9005749FC /* FavoritesListVC.swift */,
 				F87FDE372B20AE75005749FC /* FollowerListVC.swift */,
+				F87FDE312B1E2BF9005749FC /* FavoritesListVC.swift */,
 				F87FDE642B286A66005749FC /* UserInfoVC.swift */,
 			);
 			path = Screens;

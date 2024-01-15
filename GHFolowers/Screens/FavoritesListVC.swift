@@ -17,7 +17,7 @@ class FavoritesListVC: UIViewController {
             switch result {
             case .success(let favorites):
                 print(favorites)
-            case .failure(let error):
+            case .failure:
                 break
             }
         }

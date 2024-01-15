@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F845D8A92B55430200095A31 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F845D8A82B55430200095A31 /* FavoriteCell.swift */; };
 		F87FDE1C2B1E1944005749FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FDE1B2B1E1944005749FC /* AppDelegate.swift */; };
 		F87FDE1E2B1E1944005749FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FDE1D2B1E1944005749FC /* SceneDelegate.swift */; };
 		F87FDE252B1E1945005749FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87FDE242B1E1945005749FC /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F845D8A82B55430200095A31 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		F87FDE182B1E1944005749FC /* GHFolowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFolowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F87FDE1B2B1E1944005749FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F87FDE1D2B1E1944005749FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				F87FDE532B237B6D005749FC /* FollowerCell.swift */,
+				F845D8A82B55430200095A31 /* FavoriteCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				F87FDE562B237BF3005749FC /* GFAvatarImageView.swift in Sources */,
 				F87FDE732B29B6BC005749FC /* GFRepoItemVC.swift in Sources */,
 				F87FDE402B212408005749FC /* GFAlertVC.swift in Sources */,
+				F845D8A92B55430200095A31 /* FavoriteCell.swift in Sources */,
 				F87FDE492B21D5A7005749FC /* Follower.swift in Sources */,
 				F87FDE652B286A66005749FC /* UserInfoVC.swift in Sources */,
 				F87FDE1C2B1E1944005749FC /* AppDelegate.swift in Sources */,

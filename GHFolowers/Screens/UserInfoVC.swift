@@ -25,14 +25,15 @@ class UserInfoVC: GFDataLoadingVC {
     var username: String!
     weak var delegate: UserInfoVCDelegate!
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         configureViewController()
         configureScrollView()
         layoutUI()
         getUserInfo()
-        
     }
+    
     
     func configureViewController() {
         view.backgroundColor = .systemBackground
@@ -69,6 +70,7 @@ class UserInfoVC: GFDataLoadingVC {
         }
     }
     
+    
     func configureUIElements(with user: User) {
         
         self.add(childVC: GFUserInfoHeaderVC(user: user), to: self.headerView)
@@ -76,6 +78,7 @@ class UserInfoVC: GFDataLoadingVC {
         self.add(childVC: GFFollowerItemVC(user: user, delegate: self), to: self.itemViewTwo)
         self.dateLabel.text = "GitHub since \(user.createdAt.convertToMonthYearFormat())"
     }
+    
     
     func layoutUI() {
         
@@ -105,8 +108,6 @@ class UserInfoVC: GFDataLoadingVC {
             
             dateLabel.topAnchor.constraint(equalTo: itemViewTwo.bottomAnchor, constant: padding),
             dateLabel.heightAnchor.constraint(equalToConstant: 50)
-            
-            
         ])
     }
     
@@ -116,6 +117,7 @@ class UserInfoVC: GFDataLoadingVC {
         childVC.view.frame = containerView.bounds
         childVC.didMove(toParent: self)
     }
+    
     
     @objc func dismissVC() {
         dismiss(animated: true)

@@ -17,15 +17,18 @@ class GFItemInfoView: UIView {
     let titleLabel = GFTitleLabel(textAlignment: .left, fontSize: 14)
     let countLabel = GFTitleLabel(textAlignment: .center, fontSize: 14)
     
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         configure()
         
     }
     
+    
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
     
     private func configure() {
         addSubviews(symbolImageView, titleLabel, countLabel)
@@ -53,6 +56,7 @@ class GFItemInfoView: UIView {
         ])
     }
     
+    
     func set(itemInfoType: ItemInfoType, withCount count: Int) {
         switch itemInfoType {
         case .repos:
@@ -71,5 +75,4 @@ class GFItemInfoView: UIView {
         
         countLabel.text = String(count)
     }
-    
 }

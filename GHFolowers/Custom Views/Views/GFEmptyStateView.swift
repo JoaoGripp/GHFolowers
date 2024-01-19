@@ -56,13 +56,13 @@ class GFEmptyStateView: UIView {
         logoImageView.image = Images.emptyStateLogo
         logoImageView.translatesAutoresizingMaskIntoConstraints = false
         
-        let logoBottomConstant: CGFloat = DeviceTypes.isiPhoneSE || DeviceTypes.isiPhone8Zoomed ? 80 : 300
+        let logoBottomConstant: CGFloat = DeviceTypes.isiPhoneSE || DeviceTypes.isiPhone8Zoomed ? 80 : 150
         
         NSLayoutConstraint.activate([
-            logoImageView.widthAnchor.constraint(equalTo: self.widthAnchor, multiplier: 1),
-            logoImageView.heightAnchor.constraint(equalTo: self.heightAnchor, multiplier: 1),
-            logoImageView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: 180),
-            logoImageView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: logoBottomConstant)
+            logoImageView.widthAnchor.constraint(equalTo: self.widthAnchor, multiplier: 0.8),
+            logoImageView.heightAnchor.constraint(equalTo: self.heightAnchor, multiplier: 0.8),
+            logoImageView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: 130),
+            logoImageView.bottomAnchor.constraint(equalTo: self.safeAreaLayoutGuide.bottomAnchor, constant: logoBottomConstant)
         ])
     }
 }
